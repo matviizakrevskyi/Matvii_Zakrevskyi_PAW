@@ -1,0 +1,26 @@
+:host {
+    font-family: Arial;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+//
+.card-title{
+    height: 34px;
+    width: 150px;
+    background-color: #f8f8f8;
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.card-title span{
+    display: flex;
+    padding: 8px 39px;
+    font-size: 16px;
+}

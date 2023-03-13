@@ -1,0 +1,65 @@
+.container{
+    width: 900px;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.banners-container{
+    display: flex;
+}
+
+.banner{
+    width: 400px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    margin: 25px;
+    border: 1px solid rgb(188, 188, 188);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.img-sack{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}
+
+.price-container{
+    width: 100px;
+    height: 100%;
+    display: block;
+}
+
+.first .price-container .price{
+    position: relative;
+    top: 22px;
+    font-size: 18px;
+    color: #69E95F;
+}
+
+.second .price-container .price{
+    position: relative;
+    top: 22px;
+    font-size: 18px;
+    color: rgb(0, 0, 132);
+}
+ 
+.price-container .text{
+    position: relative;
+    top: 10px;
+    padding: auto;
+}
+
+.banner .menu{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 10px;
+    margin-top: 25px;
+}
+
+.big{
+    width: 400px;
+    height: 120px;
+}
